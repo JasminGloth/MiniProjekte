@@ -1,0 +1,122 @@
+[
+	{
+		"id": 1,
+		"author": "Sabine Ebert",
+		"title": "Das Geheimnis der Hebamme",
+		"release": 2006
+	},
+	{
+		"id": 2,
+		"author": "Sabine Ebert",
+		"title": "Die Spur der Hebamme",
+		"release": 2007
+	},
+	{
+		"id": 3,
+		"author": "Sabine Ebert",
+		"title": "Die Entscheidung der Hebamme",
+		"release": 2008
+	},
+	{
+		"id": 4,
+		"author": "Sabine Ebert",
+		"title": "Der Fluch der Hebamme",
+		"release": 2010
+	},
+	{
+		"id": 5,
+		"author": "Sabine Ebert",
+		"title": "Der Traum der Hebamme",
+		"release": 2011
+	},
+	{
+		"id": 6,
+		"author": "Anne Rice",
+		"title": "Pandora",
+		"release": 1998
+	},
+	{
+		"id": 7,
+		"author": "Nora Roberts",
+		"title": "Grün wie die Hoffnung",
+		"release": 2007
+	},
+	{
+		"id": 8,
+		"author": "Nora Roberts",
+		"title": "Blau wie das Glück",
+		"release": 2007
+	},
+	{
+		"id": 9,
+		"author": "Nora Roberts",
+		"title": "Rot wie die Liebe",
+		"release": 2008
+	},
+	{
+		"id": 10,
+		"author": "E. L. James",
+		"title": "Shades of Grey - Geheimes Verlangen",
+		"release": 2012
+	},
+	{
+		"id": 11,
+		"author": "E. L. James",
+		"title": "Shades of Grey - Gefährliche Liebe",
+		"release": 2012
+	},
+	{
+		"id": 12,
+		"author": "E. L. James",
+		"title": "Shades of Grey - Befreite Lust",
+		"release": 2012
+	},
+	{
+		"id": 13,
+		"author": "E. L. James",
+		"title": "Grey",
+		"release": 2015
+	},
+    {
+        "id": 14,
+		"author": "J. K. Rowling",
+		"title": "Harry Potter und der Stein der Weisen",
+		"release": 1997
+	},
+    {
+        "id": 15,
+		"author": "J. K. Rowling",
+		"title": "Harry Potter und die Kammer des Schreckens",
+		"release": 1998
+	},
+    {
+        "id": 16,
+		"author": "J. K. Rowling",
+		"title": "Harry Potter und der Gefangene von Askaban",
+		"release": 1999
+	},
+    {
+        "id": 17,
+		"author": "J. K. Rowling",
+		"title": "Harry Potter und der Feuerkelch",
+		"release": 2000
+	},
+    {
+        "id": 18,
+		"author": "J. K. Rowling",
+		"title": "Harry Potter und der Orden des Phönix",
+		"release": 2003
+	},
+    {
+        "id": 19,
+		"author": "J. K. Rowling",
+		"title": "Harry Potter und der Halbblutprinz",
+		"release": 2005
+	},
+    {
+        "id": 20,
+		"author": "J. K. Rowling",
+		"title": "Harry Potter und die Heligtümer des Todes",
+		"release": 2007
+	}
+]
