@@ -1,0 +1,387 @@
+[
+    {
+        "title": "Berner Würstchen mit Kartoffelbrei und Buttergemüse",
+		"pic": "",
+        "portions": 2,
+        "kategory": "Mittag",
+        "tags": ["Schwein"],
+        "saison": ["all"],
+        "ingredientList": [
+            {
+                "name": "Käsewürstchen",
+                "amount": "4"
+            },
+            {
+                "name": "Bacon",
+                "amount": "8 Scheiben"
+            },
+            {
+                "name": "Kartoffelbrei",
+                "amount": "1 Tüte"
+            },
+            {
+                "name": "Sahne",
+                "amount": "1 Becher"
+            },
+            {
+                "name": "Buttergemüse",
+                "amount": "1 Paket"
+            }
+        ]
+    },
+    {
+		"title": "Kastenfisch mit Reis",
+		"portions": 2,
+        "kategory": "Mittag",
+        "tags": ["Fisch"],
+		"saison": ["all"],
+		"ingredientList": [
+			{
+				"name": "Kastenfisch Brokkoli",
+				"amount": "1 Paket"
+			},
+			{
+				"name": "Kastenfisch Bordelaise",
+				"amount": "1 Paket"
+			},
+			{
+				"name": "Reis",
+				"amount": "300g"
+			}
+		]
+	},
+    {
+		"title": "Nudeln Bolognese",
+		"portions": 2,
+        "kategory": "Mittag",
+        "tags": ["Schwein"],
+		"saison": ["all"],
+		"ingredientList": [
+			{
+				"name": "Vollkorn Spirelli",
+				"amount": "250g"
+			},
+			{
+				"name": "Passierte Tomaten",
+				"amount": "1 Paket"
+			},
+			{
+				"name": "Hackfleisch",
+				"amount": "300g"
+			},
+			{
+				"name": "Buttergemüse",
+				"amount": "1 Paket"
+			},
+			{
+				"name": "Paprika TK",
+				"amount": "250g"
+			}
+		]
+	},
+    {
+		"title": "Burger und Pommes",
+		"portions": 2,
+        "kategory": "Mittag",
+        "tags": ["rind"],
+		"saison": ["all"],
+		"ingredientList": [
+			{
+				"name": "Burgerbrötchen",
+				"amount": "2"
+			},
+			{
+				"name": "Burgerpatties",
+				"amount": "2"
+			},
+			{
+				"name": "Butterkäse",
+				"amount": "2 Scheiben"
+			},
+			{
+				"name": "Bacon",
+				"amount": "8 Streifen"
+			},
+			{
+				"name": "Eisbergsalat",
+				"amount": "2 Blätter"
+			},
+            {
+                "name": "Salatgurke",
+                "amount": "6 Scheiben"
+            },
+            {
+                "name": "Burgerdressing",
+                "amount": "40 ml"
+            },
+            {
+                "name": "Pommes",
+                "amount": "500g"
+            }
+		]
+	},
+    {
+		"title": "Fischbrötchen",
+		"portions": 2,
+        "kategory": "Mittag",
+        "tags": ["Fisch"],
+		"saison": ["all"],
+		"ingredientList": [
+			{
+				"name": "Seelachsfilet",
+				"amount": "2"
+			},
+			{
+				"name": "Brötchen",
+				"amount": "4"
+			},
+			{
+				"name": "Eisbergsalat",
+				"amount": "4 Blätter"
+			},
+			{
+				"name": "Salatgurke",
+				"amount": "8 Scheiben"
+			},
+			{
+				"name": "Butterkäse",
+				"amount": "4 Scheiben"
+			},
+            {
+                "name": "Remoulade",
+                "amount": "80 ml"
+            }
+		]
+	},
+    {
+		"title": "Frikassee und Reis",
+		"portions": 2,
+        "kategory": "Mittag",
+        "tags": ["Geflügel"],
+		"saison": ["all"],
+		"ingredientList": [
+			{
+				"name": "Frikassee",
+				"amount": "2"
+			},
+			{
+				"name": "Reis",
+				"amount": "300g"
+			}
+		]
+	},
+    {
+		"title": "Gebratener Reis",
+		"portions": 2,
+        "kategory": "Mittag",
+        "tags": ["Geflügel"],
+		"saison": ["all"],
+		"ingredientList": [
+			{
+				"name": "Reis",
+				"amount": "300g"
+			},
+			{
+				"name": "Asiagemüse",
+				"amount": "500g"
+			},
+			{
+				"name": "Eier",
+				"amount": "6"
+			},
+			{
+				"name": "Hähnchenbrust",
+				"amount": "300g"
+			}
+		]
+	},
+    {
+		"title": "Hähnchenschenkel & Kräuterbaguette",
+		"portions": 2,
+        "kategory": "Mittag",
+        "tags": ["Geflügel"],
+		"saison": ["all"],
+		"ingredientList": [
+			{
+				"name": "Hähnchenschenkel",
+				"amount": "4"
+			},
+			{
+				"name": "Kräuterbaguette",
+				"amount": "2"
+			}
+		]
+	},
+    {
+		"title": "Pellkartoffeln",
+		"portions": 2,
+        "kategory": "Mittag",
+        "tags": ["Schwein"],
+		"saison": ["all"],
+		"ingredientList": [
+			{
+				"name": "Kartoffeln",
+				"amount": "750g"
+			},
+			{
+				"name": "Sour Cream",
+				"amount": "1 Becher"
+			},
+			{
+				"name": "Leberwurst",
+				"amount": "1"
+			},
+			{
+				"name": "Fleischwurst",
+				"amount": "1"
+			}
+		]
+	},
+    {
+		"title": "Chili & Fladenbrot",
+		"portions": 4,
+        "kategory": "Mittag",
+        "tags": ["Schwein"],
+		"saison": ["all"],
+		"ingredientList": [
+			{
+				"name": "Hackfleisch",
+				"amount": "500g"
+			},
+			{
+				"name": "Paprika TK",
+				"amount": "250g"
+			},
+			{
+				"name": "Mais",
+				"amount": "2 Dosen"
+			},
+			{
+				"name": "Kidneybohnen",
+				"amount": "2 Dosen"
+			},
+            {
+                "name": "Chili Fix",
+                "amount": "2"
+            },
+			{
+				"name": "Fladenbrot",
+				"amount": "0.5"
+			}
+		]
+	},
+    {
+		"title": "Kassler mit Knödeln und Rotkohl",
+		"portions": 2,
+        "kategory": "Mittag",
+        "tags": ["Schwein"],
+		"saison": ["spring","autumn", "winter"],
+		"ingredientList": [
+			{
+				"name": "Kassler",
+				"amount": "300g"
+			},
+			{
+				"name": "Semmelknödel",
+				"amount": "2"
+			},
+			{
+				"name": "Kartoffelknödel",
+				"amount": "2"
+			},
+			{
+				"name": "Rotkohl",
+				"amount": "400g"
+			}
+		]
+	},
+    {
+		"title": "Kassler mit Kartoffeln und Sauerkraut",
+		"portions": 2,
+        "kategory": "Mittag",
+        "tags": ["Schwein"],
+		"saison": ["spring","autumn","winter"],
+		"ingredientList": [
+			{
+				"name": "Kassler",
+				"amount": "300g"
+			},
+			{
+				"name": "Kartoffeln",
+				"amount": "400g"
+			},
+			{
+				"name": "Sauerkraut",
+				"amount": "400g"
+			}
+		]
+	},
+    {
+		"title": "Bratwurst mit Kartoffeln und Sauerkraut",
+		"portions": 2,
+        "kategory": "Mittag",
+        "tags": ["Schwein"],
+		"saison": ["spring","autumn","winter"],
+		"ingredientList": [
+			{
+				"name": "Bratwurst",
+				"amount": "4"
+			},
+			{
+				"name": "Kartoffeln",
+				"amount": "400g"
+			},
+			{
+				"name": "Sauerkraut",
+				"amount": "400g"
+			}
+		]
+	},
+    {
+		"title": "Gebratene Nudeln",
+		"portions": 2,
+        "kategory": "Mittag",
+        "tags": ["Geflügel"],
+		"saison": ["all"],
+		"ingredientList": [
+			{
+				"name": "Hähnchenbrust",
+				"amount": "300g"
+			},
+			{
+				"name": "Vollkorn Spirelli",
+				"amount": "250g"
+			},
+			{
+				"name": "Eier",
+				"amount": "6"
+			},
+			{
+				"name": "Asiagemüse",
+				"amount": "500g"
+			}
+		]
+	},
+	{
+		"title": "Pancakes",
+		"pic": "",
+		"portions": 8,
+		"kategory": "Mittag",
+		"tags": ["vegetarisch"],
+		"saison": ["all"],
+		"ingredientList": [
+			{
+				"name": "Mehl",
+				"amount": "500g"
+			},
+			{
+				"name": "Milch 3.5%",
+				"amount": "710 ml"
+			},
+			{
+				"name": "Eier",
+				"amount": "3"
+			}
+		]
+	}
+]

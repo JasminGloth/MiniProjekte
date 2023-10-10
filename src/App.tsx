@@ -4,23 +4,29 @@ import { PageWelcome } from './pages/PageWelcome';
 import { PageBooksorter } from './pages/PageBooksorter';
 import { PageBookfilter } from './pages/PageBookfilter';
 import { PageBookFilterAndSort } from './pages/PageBookFilterAndSort';
+import { PageCheckboxFilter } from './pages/PageCheckboxFilter';
 
 function App() {
 	return (
 		<div className="App">
-			<h1>Info Site</h1>
+			<h1>Mini Projekte</h1>
 			<nav>
 				<NavLink to="/welcome">Welcome</NavLink>
 				<NavLink to="/booksorter">Booksorter</NavLink>
 				<NavLink to="/bookfilter">Bookfilter</NavLink>
 				<NavLink to="/bookfilterandsort">BookFilterAndSort</NavLink>
+				<NavLink to="/checkboxfilter">CheckboxFilter</NavLink>
 			</nav>
 
 			<Routes>
 				<Route path="/welcome" element={<PageWelcome />} />
 				<Route path="/booksorter" element={<PageBooksorter />} />
 				<Route path="/bookfilter" element={<PageBookfilter />} />
-				<Route path="/bookfilterandsort" element={<PageBookFilterAndSort />} />
+				<Route
+					path="/bookfilterandsort"
+					element={<PageBookFilterAndSort />}
+				/>
+				<Route path="/checkboxfilter" element={<PageCheckboxFilter />} />
 				<Route path="/" element={<Navigate to="/welcome" replace />} />
 			</Routes>
 		</div>

@@ -21,9 +21,9 @@ export const PageBookfilter = () => {
 			<div className="Book">
 				{filteredBooks().map((book) => (
 					<figure key={book.id}>
-						<figcaption>{book.title}</figcaption>
+						{/* <figcaption>{book.title}</figcaption> */}
 						<img src={book.img} alt={book.title} />
-						<p>{book.author}</p>
+						{/* <p>{book.author}</p> */}
 					</figure>
 				))}
 			</div>
