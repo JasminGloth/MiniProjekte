@@ -4,7 +4,7 @@ import books from '../data/books.json';
 export const PageBooksorter = () => {
 	const [sortOption, setSortOption] = useState('');
 
-	const handleSortOptionChange = (event) => {
+	const handleSortOptionChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
 		setSortOption(event.target.value);
 	};
 
@@ -25,7 +25,7 @@ export const PageBooksorter = () => {
 				<select
 					id="sortOption"
 					value={sortOption}
-					onChange={handleSortOptionChange}
+					onChange={(e) => handleSortOptionChange(e)}
 				>
 					<option value="" disabled>
 						Bitte auswählen
