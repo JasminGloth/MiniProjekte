@@ -1,10 +1,10 @@
-import { useState } from 'react';
+import { ChangeEvent, useState } from 'react';
 import books from '../data/books.json';
 
 export const PageBooksorter = () => {
 	const [sortOption, setSortOption] = useState('');
 
-	const handleSortOptionChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
+	const handleSortOptionChange = (event: ChangeEvent<HTMLSelectElement>) => {
 		setSortOption(event.target.value);
 	};
 

@@ -1,4 +1,4 @@
-import React, { ChangeEvent, useState } from 'react';
+import { ChangeEvent, useState } from 'react';
 import books from '../data/books.json';
 
 export const PageBookFilterAndSort = () => {
