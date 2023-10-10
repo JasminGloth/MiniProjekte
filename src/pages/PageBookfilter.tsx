@@ -24,7 +24,6 @@ export const PageBookfilter = () => {
 						<figcaption>{book.title}</figcaption>
 						<img src={book.img} alt={book.title} />
 						<p>{book.author}</p>
-						<p>{book.release}</p>
 					</figure>
 				))}
 			</div>

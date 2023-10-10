@@ -3,6 +3,7 @@
 		"id": 1,
 		"author": "Sabine Ebert",
 		"title": "Das Geheimnis der Hebamme",
+		"genre": ["historisch"],
 		"release": 2006,
 		"img": "https://m.media-amazon.com/images/I/91HhPtNCnwL._AC_UY218_.jpg"
 	},
@@ -10,6 +11,7 @@
 		"id": 2,
 		"author": "Sabine Ebert",
 		"title": "Die Spur der Hebamme",
+		"genre": ["historisch"],
 		"release": 2007,
 		"img": "https://m.media-amazon.com/images/I/91ASuECtQPL._AC_UY218_.jpg"
 	},
@@ -17,6 +19,7 @@
 		"id": 3,
 		"author": "Sabine Ebert",
 		"title": "Die Entscheidung der Hebamme",
+		"genre": ["historisch"],
 		"release": 2008,
 		"img": "https://m.media-amazon.com/images/I/81Hnyn220fL._AC_UY218_.jpg"
 	},
@@ -24,6 +27,7 @@
 		"id": 4,
 		"author": "Sabine Ebert",
 		"title": "Der Fluch der Hebamme",
+		"genre": ["historisch"],
 		"release": 2010,
 		"img": "https://m.media-amazon.com/images/I/91KzGYQ3ReL._AC_UY218_.jpg"
 	},
@@ -31,112 +35,160 @@
 		"id": 5,
 		"author": "Sabine Ebert",
 		"title": "Der Traum der Hebamme",
+		"genre": ["historisch"],
 		"release": 2011,
-		"img":"https://m.media-amazon.com/images/I/91EYVtMwATL._AC_UY218_.jpg"
+		"img": "https://m.media-amazon.com/images/I/91EYVtMwATL._AC_UY218_.jpg"
 	},
 	{
 		"id": 6,
 		"author": "Anne Rice",
 		"title": "Pandora",
+		"genre": ["fantasy"],
 		"release": 1998,
-		"img":"https://m.media-amazon.com/images/I/81oYG2b-BmL._AC_UY218_.jpg"
+		"img": "https://m.media-amazon.com/images/I/81oYG2b-BmL._AC_UY218_.jpg"
 	},
 	{
 		"id": 7,
 		"author": "Nora Roberts",
 		"title": "Grün wie die Hoffnung",
+		"genre": ["fantasy"],
 		"release": 2007,
-		"img":"https://m.media-amazon.com/images/I/912JXlsawOL._AC_UY218_.jpg"
+		"img": "https://m.media-amazon.com/images/I/912JXlsawOL._AC_UY218_.jpg"
 	},
 	{
 		"id": 8,
 		"author": "Nora Roberts",
 		"title": "Blau wie das Glück",
+		"genre": ["fantasy"],
 		"release": 2007,
-		"img":"https://m.media-amazon.com/images/I/91RFmGE5QML._AC_UY218_.jpg"
+		"img": "https://m.media-amazon.com/images/I/91RFmGE5QML._AC_UY218_.jpg"
 	},
 	{
 		"id": 9,
 		"author": "Nora Roberts",
 		"title": "Rot wie die Liebe",
+		"genre": ["fantasy"],
 		"release": 2008,
-		"img":"https://m.media-amazon.com/images/I/91UlVXYoX2L._AC_UY218_.jpg"
+		"img": "https://m.media-amazon.com/images/I/91UlVXYoX2L._AC_UY218_.jpg"
 	},
 	{
 		"id": 10,
 		"author": "E. L. James",
 		"title": "Shades of Grey - Geheimes Verlangen",
+		"genre": ["erotik"],
 		"release": 2012,
-		"img":"https://m.media-amazon.com/images/I/81AfAJUnmjL._AC_UY218_.jpg"
+		"img": "https://m.media-amazon.com/images/I/81AfAJUnmjL._AC_UY218_.jpg"
 	},
 	{
 		"id": 11,
 		"author": "E. L. James",
 		"title": "Shades of Grey - Gefährliche Liebe",
+		"genre": ["erotik"],
 		"release": 2012,
-		"img":"https://m.media-amazon.com/images/I/813aszsl1FL._AC_UY218_.jpg"
+		"img": "https://m.media-amazon.com/images/I/813aszsl1FL._AC_UY218_.jpg"
 	},
 	{
 		"id": 12,
 		"author": "E. L. James",
 		"title": "Shades of Grey - Befreite Lust",
+		"genre": ["erotik"],
 		"release": 2012,
-		"img":"https://m.media-amazon.com/images/I/712ILwH7-ZL._SL1500_.jpg"
+		"img": "https://m.media-amazon.com/images/I/712ILwH7-ZL._SL1500_.jpg"
 	},
 	{
 		"id": 13,
 		"author": "E. L. James",
 		"title": "Grey",
+		"genre": ["erotik"],
 		"release": 2015,
-		"img":"https://m.media-amazon.com/images/I/71Ba5gPNZIL._AC_UY218_.jpg"
+		"img": "https://m.media-amazon.com/images/I/71Ba5gPNZIL._AC_UY218_.jpg"
 	},
-    {
-        "id": 14,
+	{
+		"id": 14,
 		"author": "J. K. Rowling",
 		"title": "Harry Potter und der Stein der Weisen",
+		"genre": ["fantasy"],
 		"release": 1997,
-		"img":"https://m.media-amazon.com/images/I/91gILL2JmjL._AC_UY218_.jpg"
+		"img": "https://m.media-amazon.com/images/I/91gILL2JmjL._AC_UY218_.jpg"
 	},
-    {
-        "id": 15,
+	{
+		"id": 15,
 		"author": "J. K. Rowling",
 		"title": "Harry Potter und die Kammer des Schreckens",
+		"genre": ["fantasy"],
 		"release": 1998,
-		"img":"https://m.media-amazon.com/images/I/91Hqh0BbySL._AC_UY218_.jpg"
+		"img": "https://m.media-amazon.com/images/I/91Hqh0BbySL._AC_UY218_.jpg"
 	},
-    {
-        "id": 16,
+	{
+		"id": 16,
 		"author": "J. K. Rowling",
 		"title": "Harry Potter und der Gefangene von Askaban",
+		"genre": ["fantasy"],
 		"release": 1999,
-		"img":"https://m.media-amazon.com/images/I/8174qNNiuML._AC_UY218_.jpg"
+		"img": "https://m.media-amazon.com/images/I/8174qNNiuML._AC_UY218_.jpg"
 	},
-    {
-        "id": 17,
+	{
+		"id": 17,
 		"author": "J. K. Rowling",
 		"title": "Harry Potter und der Feuerkelch",
+		"genre": ["fantasy"],
 		"release": 2000,
-		"img":"https://m.media-amazon.com/images/I/81VlcK14tCL._SL1500_.jpg"
+		"img": "https://m.media-amazon.com/images/I/81VlcK14tCL._SL1500_.jpg"
 	},
-    {
+	{
 		"id": 18,
 		"author": "J. K. Rowling",
 		"title": "Harry Potter und der Orden des Phönix",
+		"genre": ["fantasy"],
 		"release": 2003,
 		"img": "https://m.media-amazon.com/images/I/91mfWClOdQL._AC_UY218_.jpg"
 	},
-    {
+	{
 		"id": 19,
 		"author": "J. K. Rowling",
 		"title": "Harry Potter und der Halbblutprinz",
+		"genre": ["fantasy"],
 		"release": 2005,
 		"img": "https://m.media-amazon.com/images/I/813t+TwBQVL._AC_UY218_.jpg"
 	},
-    {
+	{
 		"id": 20,
 		"author": "J. K. Rowling",
 		"title": "Harry Potter und die Heligtümer des Todes",
+		"genre": ["fantasy"],
 		"release": 2007,
 		"img": "https://m.media-amazon.com/images/I/81kJNH9bzhL._AC_UY218_.jpg"
+	},
+	{
+		"id": 21,
+		"author": "Ariana Franklin",
+		"title": "Die Totenleserin",
+		"genre": ["historisch","thriller", "kriminal"],
+		"release": 2008,
+		"img": "https://m.media-amazon.com/images/I/914D7rCEePL._AC_UF1000,1000_QL80_.jpg"
+	},
+	{
+		"id": 22,
+		"author": "Ariana Franklin",
+		"title": "Die Teufelshaube",
+		"genre": ["historisch", "thriller", "kriminal"],
+		"release": 2008,
+		"img": "https://m.media-amazon.com/images/I/91VoXXq4uNL._AC_UF1000,1000_QL80_.jpg"
+	},
+	{
+		"id": 23,
+		"author": "Ariana Franklin",
+		"title": "Der König und die Totenleserin",
+		"genre": ["historisch", "thriller", "kriminal"],
+		"release": 2011,
+		"img": "https://m.media-amazon.com/images/I/91qjfCneJ9L._AC_UF1000,1000_QL80_.jpg"
+	},
+	{
+		"id": 24,
+		"author": "Ariana Franklin",
+		"title": "Der Fluch der Totenleserin",
+		"genre": ["historisch", "thriller", "kriminal"],
+		"release": 2012,
+		"img": "https://m.media-amazon.com/images/I/91JKlctT34L._AC_UF1000,1000_QL80_.jpg"
 	}
 ]
