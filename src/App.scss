@@ -10,7 +10,7 @@ body {
 
 	nav {
 		background-color: #222;
-		padding: .5rem;
+		padding: 0.5rem;
 
 		a {
 			color: #aaa;
@@ -20,6 +20,35 @@ body {
 
 		a.active {
 			color: rgb(211, 211, 110);
+		}
+	}
+
+	.Book {
+		display: flex;
+		flex-wrap: wrap;
+		grid-gap: 20px;
+		padding-top: 20px;
+		grid-template-columns: 1fr;
+
+		figure {
+			border: 3px solid silver;
+			padding: 10px;
+			width: clamp(300px, 20vw, 450px);
+		}
+
+		img {
+			width: 90%;
+			object-fit: cover;
+			display: block;
+			margin: 0 auto;
+		}
+
+		figcaption {
+			font-size: 30px;
+			padding-bottom: 0.5em;
+			line-height: 1.2em;
+			text-align: center;
+			text-decoration: underline double;
 		}
 	}
 }
