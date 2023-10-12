@@ -95,27 +95,4 @@ body {
 			color: #87cefa;
 		}
 	}
-
-	.pageCheckboxFilter {
-		display: flex;
-	}
-
-	.sidebar {
-		width: 20vw;
-		background-color: #444;
-		position: sticky;
-
-		.firstChoice{
-			border: 3px solid silver;
-			margin: 1rem;
-		}
-		.secondChoice{
-			border: 3px solid silver;
-			margin: 1rem;
-		}
-		.thirdChoice{
-			border: 3px solid silver;
-			margin: 1rem;
-		}
-	}
 }
