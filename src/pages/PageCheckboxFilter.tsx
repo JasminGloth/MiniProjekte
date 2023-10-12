@@ -27,7 +27,7 @@ export const PageCheckboxFilter = () => {
 	};
 
 	const saisonList = ['Frühling', 'Sommer', 'Herbst', 'Winter'];
-	const kategoryList = ["Frühstück",'Mittag',"Gebäck"];
+	const kategoryList = ['Frühstück', 'Mittag', 'Gebäck'];
 
 	const handleSortOptionChange = (event: ChangeEvent<HTMLButtonElement>) => {
 		setSortOption(event.target.value);
@@ -51,7 +51,7 @@ export const PageCheckboxFilter = () => {
 
 	return (
 		<div className="page pageCheckboxFilter">
-			<div>
+			
 				<label htmlFor="sortOption">Sortieren nach:</label>
 				<div>
 					<button
@@ -73,13 +73,13 @@ export const PageCheckboxFilter = () => {
 						Mahlzeit
 					</button>
 				</div>
-			</div>
+			
 
 			{sortOption === 'saison' && (
 				<div>
 					{saisonList.map((saison) => (
 						<button
-							id='btn'
+							id="btn"
 							key={saison}
 							onClick={() => handleSaisonChange(saison)}
 						>
@@ -93,7 +93,7 @@ export const PageCheckboxFilter = () => {
 				<div>
 					{kategoryList.map((kategory) => (
 						<button
-							id='btn'
+							id="btn"
 							key={kategory}
 							onClick={() => handleKategoryChange(kategory)}
 						>
@@ -108,7 +108,7 @@ export const PageCheckboxFilter = () => {
 					{[...new Set(meals.flatMap((meal) => meal.tags))].map(
 						(tag) => (
 							<button
-								id='btn'
+								id="btn"
 								key={tag}
 								onClick={() => handleTagChange(tag)}
 								className={selectedTag === tag ? 'active' : ''}
