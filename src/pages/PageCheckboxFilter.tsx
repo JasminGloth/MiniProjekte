@@ -29,8 +29,8 @@ export const PageCheckboxFilter = () => {
 	const saisonList = ['Frühling', 'Sommer', 'Herbst', 'Winter'];
 	const kategoryList = ['Frühstück', 'Mittag', 'Gebäck'];
 
-	const handleSortOptionChange = (event: ChangeEvent<HTMLButtonElement>) => {
-		setSortOption(event.target.value);
+	const handleSortOptionChange = (event: React.MouseEvent<HTMLButtonElement>) => {
+		setSortOption((event.target as HTMLButtonElement).value);
 		setFilterValue('');
 		setSelectedTag('');
 	};
