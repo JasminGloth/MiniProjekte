@@ -27,9 +27,9 @@ export const PageCheckboxFilter = () => {
 	};
 
 	const saisonList = ['Frühling', 'Sommer', 'Herbst', 'Winter'];
-	const kategoryList = ["Frühstück",'Mittag'];
+	const kategoryList = ['Frühstück', 'Mittag', 'Gebäck'];
 
-	const handleSortOptionChange = (event: ChangeEvent<HTMLSelectElement>) => {
+	const handleSortOptionChange = (event: ChangeEvent<HTMLButtonElement>) => {
 		setSortOption(event.target.value);
 		setFilterValue('');
 		setSelectedTag('');
@@ -51,29 +51,42 @@ export const PageCheckboxFilter = () => {
 
 	return (
 		<div className="page pageCheckboxFilter">
-			<div>
-				<form>
-					<label htmlFor="sortOption">Sortieren nach: </label>
-					<select
-						id="sortOption"
-						value={sortOption}
-						onChange={(e) => handleSortOptionChange(e)}
-					>
-						<option value="" disabled>
-							Bitte auswählen
-						</option>
-						<option value="saison">Jahreszeit</option>
-						<option value="kategory">Tageszeit</option>
-					</select>
-				</form>
+			<div className='sidebar'>
+				<div>
+					<label htmlFor="sortOption">Sortieren nach:</label>
+					<div className='firstChoice'>
+						<button
+							id="btn"
+							type="button"
+							value="saison"
+							onClick={(e) => handleSortOptionChange(e)}
+							className={sortOption === 'saison' ? 'active' : ''}
+						>
+							Jahreszeit
+						</button>
+						<button
+							id="btn"
+							type="button"
+							value="kategory"
+							onClick={(e) => handleSortOptionChange(e)}
+							className={
+								sortOption === 'kategory' ? 'active' : ''
+							}
+						>
+							Mahlzeit
+						</button>
+					</div>
+				</div>
 
+				<div className='secondChoice'>
 				{sortOption === 'saison' && (
 					<div>
 						{saisonList.map((saison) => (
 							<button
-								className='btn'
+								id="btn"
 								key={saison}
-								onClick={() => handleSaisonChange(saison)}>
+								onClick={() => handleSaisonChange(saison)}
+							>
 								{saison}
 							</button>
 						))}
@@ -84,44 +97,51 @@ export const PageCheckboxFilter = () => {
 					<div>
 						{kategoryList.map((kategory) => (
 							<button
-								className='btn'
+								id="btn"
 								key={kategory}
-								onClick={() => handleKategoryChange(kategory)}>
+								onClick={() => handleKategoryChange(kategory)}
+							>
 								{kategory}
 							</button>
 						))}
 					</div>
 				)}
+				</div>
 
+				<div className='thirdChoice'>
 				{filterValue !== '' && (
 					<div>
 						{[...new Set(meals.flatMap((meal) => meal.tags))].map(
 							(tag) => (
 								<button
-									className='btn'
+									id="btn"
 									key={tag}
-									onClick={() => handleTagChange(tag)}>
+									onClick={() => handleTagChange(tag)}
+									className={
+										selectedTag === tag ? 'active' : ''
+									}
+								>
 									{tag}
 								</button>
 							)
 						)}
 					</div>
-				)}
+				)}</div>
+			</div>
 
-				<div className="meal">
-					{filteredMeals().map((meal) => (
-						<figure key={meal.title}>
-							<figcaption>
-								<p className="title">{meal.title}</p>
-								{meal.ingredientList.map((ingredient) => (
-									<p key={ingredient.name}>
-										{ingredient.amount} {ingredient.name}
-									</p>
-								))}
-							</figcaption>
-						</figure>
-					))}
-				</div>
+			<div className="meal">
+				{filteredMeals().map((meal) => (
+					<figure key={meal.title}>
+						<figcaption>
+							<p className="title">{meal.title}</p>
+							{meal.ingredientList.map((ingredient) => (
+								<p key={ingredient.name}>
+									{ingredient.amount} {ingredient.name}
+								</p>
+							))}
+						</figcaption>
+					</figure>
+				))}
 			</div>
 		</div>
 	);

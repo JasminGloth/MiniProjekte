@@ -82,30 +82,40 @@ body {
 			line-height: 1.2em;
 		}
 	}
-	.btn {
-			background-color: #222;
-			font-family: "Pacifico", sans-serif;
-			font-size: 1.5rem;
-			color: #87cefa;
-			padding: 0.5rem;
-			margin: 0.5rem;
-
-			&:hover {
-				background-color: #333;
-				color: #87cefa;
-			}
-		}
-
-	form{
-		font-family: "Pacifico", sans-serif;
+	#btn {
+		background-color: #222;
+		font-family: 'Pacifico', sans-serif;
 		font-size: 1.5rem;
+		color: #87cefa;
+		padding: 0.5rem;
 		margin: 0.5rem;
 
-		select{
+		&:hover {
 			background-color: #333;
-			font-family: "Pacifico", sans-serif;
-			font-size: 1.5rem;
 			color: #87cefa;
+		}
+	}
+
+	.pageCheckboxFilter {
+		display: flex;
+	}
+
+	.sidebar {
+		width: 20vw;
+		background-color: #444;
+		position: sticky;
+
+		.firstChoice{
+			border: 3px solid silver;
+			margin: 1rem;
+		}
+		.secondChoice{
+			border: 3px solid silver;
+			margin: 1rem;
+		}
+		.thirdChoice{
+			border: 3px solid silver;
+			margin: 1rem;
 		}
 	}
 }

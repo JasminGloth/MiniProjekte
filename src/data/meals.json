@@ -459,5 +459,83 @@
 				"amount": "10g"
 			}
 		]
+	},
+	{
+		"title":"Fratzen",
+		"portions": 50,
+		"kategory": "Gebäck",
+		"tags": ["Kekse"],
+		"saison": ["Winter"],
+		"ingredientList":[
+			{
+				"name": "Mehl",
+				"amount": "300g"
+			},
+			{
+				"name": "Zucker",
+				"amount": "60g"
+			},
+			{
+				"name": "Vanillezucker",
+				"amount": "1 Päckchen"
+			},
+			{
+				"name": "Eier",
+				"amount": "2"
+			},
+			{
+				"name": "Butter",
+				"amount": "125g"
+			},
+			{
+				"name":"getrocknete Äpfel",
+				"amount": "50g"
+			},
+			{
+				"name": "getrocknete Aprikosen",
+				"amount": "50g"
+			}
+		]
+	},
+	{
+		"title":"Kaffeeplätzchen",
+		"portions": 50,
+		"kategory": "Gebäck",
+		"tags": ["Kekse"],
+		"saison": ["Winter"],
+		"ingredientList":[
+			{
+				"name": "Mehl",
+				"amount": "125g"
+			},
+			{
+				"name": "Zucker",
+				"amount": "90g"				
+			},
+			{
+				"name":"Haselnüsse",
+				"amount": "60g"
+			},
+			{
+				"name": "Eier",
+				"amount": "1"
+			},
+			{
+				"name": "Butter",
+				"amount": "125g"
+			},
+			{
+				"name": "Pulverkaffee",
+				"amount": "3 EL"
+			},
+			{
+				"name":"Puderzucker",
+				"amount": "150g"
+			},
+			{
+				"name": "Heißes Wasser",
+				"amount": "1 EL"
+			}
+		]
 	}
 ]
