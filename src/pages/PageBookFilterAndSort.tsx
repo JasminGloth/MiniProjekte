@@ -75,7 +75,7 @@ export const PageBookFilterAndSort = () => {
 				</div>
 			)}
 
-			<div className="Book">
+			<div className="book">
 				{filteredBooks().map((book) => (
 					<figure key={book.id}>
 						{/* <figcaption>{book.title}</figcaption> */}

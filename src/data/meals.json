@@ -1,40 +1,39 @@
 [
-    {
-        "title": "Berner Würstchen mit Kartoffelbrei und Buttergemüse",
-		"pic": "",
-        "portions": 2,
-        "kategory": "Mittag",
-        "tags": ["Schwein"],
-        "saison": ["all"],
-        "ingredientList": [
-            {
-                "name": "Käsewürstchen",
-                "amount": "4"
-            },
-            {
-                "name": "Bacon",
-                "amount": "8 Scheiben"
-            },
-            {
-                "name": "Kartoffelbrei",
-                "amount": "1 Tüte"
-            },
-            {
-                "name": "Sahne",
-                "amount": "1 Becher"
-            },
-            {
-                "name": "Buttergemüse",
-                "amount": "1 Paket"
-            }
-        ]
-    },
-    {
+	{
+		"title": "Berner Würstchen mit Kartoffelbrei und Buttergemüse",
+		"portions": 2,
+		"kategory": "Mittag",
+		"tags": ["Schwein"],
+		"saison": ["Frühling", "Sommer","Herbst","Winter"],
+		"ingredientList": [
+			{
+				"name": "Käsewürstchen",
+				"amount": "4"
+			},
+			{
+				"name": "Bacon",
+				"amount": "8 Scheiben"
+			},
+			{
+				"name": "Kartoffelbrei",
+				"amount": "1 Tüte"
+			},
+			{
+				"name": "Sahne",
+				"amount": "1 Becher"
+			},
+			{
+				"name": "Buttergemüse",
+				"amount": "1 Paket"
+			}
+		]
+	},
+	{
 		"title": "Kastenfisch mit Reis",
 		"portions": 2,
-        "kategory": "Mittag",
-        "tags": ["Fisch"],
-		"saison": ["all"],
+		"kategory": "Mittag",
+		"tags": ["Fisch"],
+		"saison": ["Frühling", "Sommer","Herbst","Winter"],
 		"ingredientList": [
 			{
 				"name": "Kastenfisch Brokkoli",
@@ -50,12 +49,12 @@
 			}
 		]
 	},
-    {
+	{
 		"title": "Nudeln Bolognese",
 		"portions": 2,
-        "kategory": "Mittag",
-        "tags": ["Schwein"],
-		"saison": ["all"],
+		"kategory": "Mittag",
+		"tags": ["Schwein"],
+		"saison": ["Frühling", "Sommer","Herbst","Winter"],
 		"ingredientList": [
 			{
 				"name": "Vollkorn Spirelli",
@@ -79,12 +78,12 @@
 			}
 		]
 	},
-    {
+	{
 		"title": "Burger und Pommes",
 		"portions": 2,
-        "kategory": "Mittag",
-        "tags": ["rind"],
-		"saison": ["all"],
+		"kategory": "Mittag",
+		"tags": ["Rind"],
+		"saison": ["Frühling", "Sommer","Herbst","Winter"],
 		"ingredientList": [
 			{
 				"name": "Burgerbrötchen",
@@ -106,26 +105,26 @@
 				"name": "Eisbergsalat",
 				"amount": "2 Blätter"
 			},
-            {
-                "name": "Salatgurke",
-                "amount": "6 Scheiben"
-            },
-            {
-                "name": "Burgerdressing",
-                "amount": "40 ml"
-            },
-            {
-                "name": "Pommes",
-                "amount": "500g"
-            }
+			{
+				"name": "Salatgurke",
+				"amount": "6 Scheiben"
+			},
+			{
+				"name": "Burgerdressing",
+				"amount": "40 ml"
+			},
+			{
+				"name": "Pommes",
+				"amount": "500g"
+			}
 		]
 	},
-    {
+	{
 		"title": "Fischbrötchen",
 		"portions": 2,
-        "kategory": "Mittag",
-        "tags": ["Fisch"],
-		"saison": ["all"],
+		"kategory": "Mittag",
+		"tags": ["Fisch"],
+		"saison": ["Frühling", "Sommer","Herbst","Winter"],
 		"ingredientList": [
 			{
 				"name": "Seelachsfilet",
@@ -147,18 +146,18 @@
 				"name": "Butterkäse",
 				"amount": "4 Scheiben"
 			},
-            {
-                "name": "Remoulade",
-                "amount": "80 ml"
-            }
+			{
+				"name": "Remoulade",
+				"amount": "80 ml"
+			}
 		]
 	},
-    {
+	{
 		"title": "Frikassee und Reis",
 		"portions": 2,
-        "kategory": "Mittag",
-        "tags": ["Geflügel"],
-		"saison": ["all"],
+		"kategory": "Mittag",
+		"tags": ["Geflügel"],
+		"saison": ["Frühling", "Sommer","Herbst","Winter"],
 		"ingredientList": [
 			{
 				"name": "Frikassee",
@@ -170,12 +169,12 @@
 			}
 		]
 	},
-    {
+	{
 		"title": "Gebratener Reis",
 		"portions": 2,
-        "kategory": "Mittag",
-        "tags": ["Geflügel"],
-		"saison": ["all"],
+		"kategory": "Mittag",
+		"tags": ["Geflügel"],
+		"saison": ["Frühling", "Sommer","Herbst","Winter"],
 		"ingredientList": [
 			{
 				"name": "Reis",
@@ -195,12 +194,12 @@
 			}
 		]
 	},
-    {
+	{
 		"title": "Hähnchenschenkel & Kräuterbaguette",
 		"portions": 2,
-        "kategory": "Mittag",
-        "tags": ["Geflügel"],
-		"saison": ["all"],
+		"kategory": "Mittag",
+		"tags": ["Geflügel"],
+		"saison": ["Frühling", "Sommer","Herbst","Winter"],
 		"ingredientList": [
 			{
 				"name": "Hähnchenschenkel",
@@ -212,12 +211,12 @@
 			}
 		]
 	},
-    {
+	{
 		"title": "Pellkartoffeln",
 		"portions": 2,
-        "kategory": "Mittag",
-        "tags": ["Schwein"],
-		"saison": ["all"],
+		"kategory": "Mittag",
+		"tags": ["Schwein"],
+		"saison": ["Frühling", "Sommer","Herbst","Winter"],
 		"ingredientList": [
 			{
 				"name": "Kartoffeln",
@@ -237,12 +236,12 @@
 			}
 		]
 	},
-    {
+	{
 		"title": "Chili & Fladenbrot",
 		"portions": 4,
-        "kategory": "Mittag",
-        "tags": ["Schwein"],
-		"saison": ["all"],
+		"kategory": "Mittag",
+		"tags": ["Schwein"],
+		"saison": ["Frühling", "Sommer","Herbst","Winter"],
 		"ingredientList": [
 			{
 				"name": "Hackfleisch",
@@ -260,22 +259,22 @@
 				"name": "Kidneybohnen",
 				"amount": "2 Dosen"
 			},
-            {
-                "name": "Chili Fix",
-                "amount": "2"
-            },
+			{
+				"name": "Chili Fix",
+				"amount": "2"
+			},
 			{
 				"name": "Fladenbrot",
 				"amount": "0.5"
 			}
 		]
 	},
-    {
+	{
 		"title": "Kassler mit Knödeln und Rotkohl",
 		"portions": 2,
-        "kategory": "Mittag",
-        "tags": ["Schwein"],
-		"saison": ["spring","autumn", "winter"],
+		"kategory": "Mittag",
+		"tags": ["Schwein"],
+		"saison": ["Frühling", "Herbst", "Winter"],
 		"ingredientList": [
 			{
 				"name": "Kassler",
@@ -295,12 +294,12 @@
 			}
 		]
 	},
-    {
+	{
 		"title": "Kassler mit Kartoffeln und Sauerkraut",
 		"portions": 2,
-        "kategory": "Mittag",
-        "tags": ["Schwein"],
-		"saison": ["spring","autumn","winter"],
+		"kategory": "Mittag",
+		"tags": ["Schwein"],
+		"saison": ["Frühling", "Herbst", "Winter"],
 		"ingredientList": [
 			{
 				"name": "Kassler",
@@ -316,12 +315,12 @@
 			}
 		]
 	},
-    {
+	{
 		"title": "Bratwurst mit Kartoffeln und Sauerkraut",
 		"portions": 2,
-        "kategory": "Mittag",
-        "tags": ["Schwein"],
-		"saison": ["spring","autumn","winter"],
+		"kategory": "Mittag",
+		"tags": ["Schwein"],
+		"saison": ["Frühling", "Herbst", "Winter"],
 		"ingredientList": [
 			{
 				"name": "Bratwurst",
@@ -337,12 +336,12 @@
 			}
 		]
 	},
-    {
+	{
 		"title": "Gebratene Nudeln",
 		"portions": 2,
-        "kategory": "Mittag",
-        "tags": ["Geflügel"],
-		"saison": ["all"],
+		"kategory": "Mittag",
+		"tags": ["Geflügel"],
+		"saison": ["Frühling", "Sommer","Herbst","Winter"],
 		"ingredientList": [
 			{
 				"name": "Hähnchenbrust",
@@ -364,11 +363,10 @@
 	},
 	{
 		"title": "Pancakes",
-		"pic": "",
 		"portions": 8,
 		"kategory": "Mittag",
-		"tags": ["vegetarisch"],
-		"saison": ["all"],
+		"tags": ["Vegetarisch"],
+		"saison": ["Frühling", "Sommer","Herbst","Winter"],
 		"ingredientList": [
 			{
 				"name": "Mehl",
@@ -381,6 +379,84 @@
 			{
 				"name": "Eier",
 				"amount": "3"
+			}
+		]
+	},
+	{
+		"title": "Overnight Oats Banane-Apfel",
+		"portions": 1,
+		"kategory": "Frühstück",
+		"tags": ["Vegetarisch"],
+		"saison": ["Frühling", "Sommer","Herbst","Winter"],
+		"ingredientList": [
+			{
+				"name": "Haferflocken Zart",
+				"amount": "3 El"
+			},
+			{
+				"name": "Haferflocken Kernig",
+				"amount": "2 El"
+			},
+			{
+				"name": "Milch 3.5%",
+				"amount": "100 ml"
+			},
+			{
+				"name": "Griechischer Joghurt",
+				"amount": "75g"
+			},
+			{
+				"name": "Banane",
+				"amount": "50g"
+			},
+			{
+				"name": "Apfel",
+				"amount": "50g"
+			},
+			{
+				"name": "Honig",
+				"amount": "10g"
+			},
+			{
+				"name": "Walnüsse",
+				"amount": "10g"
+			}
+		]
+	},
+	{
+		"title":"Overnight Oats Kokos-Banane",
+		"portions": 1,
+		"kategory": "Frühstück",
+		"tags": ["Vegetarisch"],
+		"saison": ["Frühling", "Sommer","Herbst","Winter"],
+		"ingredientList":[
+			{
+				"name": "Haferflocken Zart",
+				"amount": "3 El"				
+			},
+			{
+				"name": "Haferflocken Kernig",
+				"amount": "2 El"
+			},
+			{
+				"name": "Milch 3.5%",
+				"amount": "100 ml"
+			},
+			{
+				"name": "Griechischer Joghurt",
+				"amount": "75g"
+			},
+			{
+				"name": "Banane",
+				"amount": "100g"
+			},
+			{
+				"name": "Kokosraspeln",
+				"amount": "20g"
+			},
+			{
+				"name": "Honig",
+				"amount": "10g"
 			}
 		]
 	}

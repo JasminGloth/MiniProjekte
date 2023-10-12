@@ -1,7 +1,7 @@
 body {
 	background-color: #333;
 	color: #87cefa;
-	font-family: "Pacifico", sans-serif;
+	font-family: 'Pacifico', sans-serif;
 	padding: 0 1rem;
 
 	h1 {
@@ -23,7 +23,7 @@ body {
 		}
 	}
 
-	.Book {
+	.book {
 		display: flex;
 		flex-wrap: wrap;
 		grid-gap: 20px;
@@ -51,6 +51,61 @@ body {
 			line-height: 1.2em;
 			text-align: center;
 			text-decoration: underline double;
+		}
+	}
+	.meal {
+		display: flex;
+		flex-wrap: wrap;
+		grid-gap: 20px;
+		padding-top: 20px;
+		grid-template-columns: 1fr;
+
+		.title {
+			font-size: 1.5rem;
+			padding-bottom: 0.5em;
+			line-height: 1.2em;
+			text-align: center;
+			text-decoration: underline double;
+		}
+
+		figure {
+			border: 3px solid silver;
+			padding: 10px;
+			width: clamp(250px, 20vw, 300px);
+			height: clamp(450px, 10vh, 400px);
+			background-image: url(../public/img/weltall.jpg);
+		}
+
+		figcaption {
+			font-size: 1.2rem;
+			padding-bottom: 0.5em;
+			line-height: 1.2em;
+		}
+	}
+	.btn {
+			background-color: #222;
+			font-family: "Pacifico", sans-serif;
+			font-size: 1.5rem;
+			color: #87cefa;
+			padding: 0.5rem;
+			margin: 0.5rem;
+
+			&:hover {
+				background-color: #333;
+				color: #87cefa;
+			}
+		}
+
+	form{
+		font-family: "Pacifico", sans-serif;
+		font-size: 1.5rem;
+		margin: 0.5rem;
+
+		select{
+			background-color: #333;
+			font-family: "Pacifico", sans-serif;
+			font-size: 1.5rem;
+			color: #87cefa;
 		}
 	}
 }
