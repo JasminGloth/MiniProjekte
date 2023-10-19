@@ -5,6 +5,7 @@ import { PageBooksorter } from './pages/PageBooksorter';
 import { PageBookfilter } from './pages/PageBookfilter';
 import { PageBookFilterAndSort } from './pages/PageBookFilterAndSort';
 import { PageCheckboxFilter } from './pages/PageCheckboxFilter';
+import { PageKalender } from './pages/PageKalender';
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
 				<NavLink to="/bookfilter">Bookfilter</NavLink>
 				<NavLink to="/bookfilterandsort">BookFilterAndSort</NavLink>
 				<NavLink to="/checkboxfilter">CheckboxFilter</NavLink>
+				<NavLink to="/kalender">Kalender</NavLink>
 			</nav>
 
 			<Routes>
@@ -27,6 +29,7 @@ function App() {
 					element={<PageBookFilterAndSort />}
 				/>
 				<Route path="/checkboxfilter" element={<PageCheckboxFilter />} />
+				<Route path="/kalender" element={<PageKalender />} />
 				<Route path="/" element={<Navigate to="/welcome" replace />} />
 			</Routes>
 		</div>

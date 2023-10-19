@@ -29,7 +29,9 @@ export const PageCheckboxFilter = () => {
 	const saisonList = ['Frühling', 'Sommer', 'Herbst', 'Winter'];
 	const kategoryList = ['Frühstück', 'Mittag', 'Gebäck'];
 
-	const handleSortOptionChange = (event: React.MouseEvent<HTMLButtonElement>) => {
+	const handleSortOptionChange = (
+		event: React.MouseEvent<HTMLButtonElement>
+	) => {
 		setSortOption((event.target as HTMLButtonElement).value);
 		setFilterValue('');
 		setSelectedTag('');
@@ -51,29 +53,27 @@ export const PageCheckboxFilter = () => {
 
 	return (
 		<div className="page pageCheckboxFilter">
-			
-				<label htmlFor="sortOption">Sortieren nach:</label>
-				<div>
-					<button
-						id="btn"
-						type="button"
-						value="saison"
-						onClick={(e) => handleSortOptionChange(e)}
-						className={sortOption === 'saison' ? 'active' : ''}
-					>
-						Jahreszeit
-					</button>
-					<button
-						id="btn"
-						type="button"
-						value="kategory"
-						onClick={(e) => handleSortOptionChange(e)}
-						className={sortOption === 'kategory' ? 'active' : ''}
-					>
-						Mahlzeit
-					</button>
-				</div>
-			
+			<h2>Sortieren nach</h2>
+			<div>
+				<button
+					id="btn"
+					type="button"
+					value="saison"
+					onClick={(e) => handleSortOptionChange(e)}
+					className={sortOption === 'saison' ? 'active' : ''}
+				>
+					Jahreszeit
+				</button>
+				<button
+					id="btn"
+					type="button"
+					value="kategory"
+					onClick={(e) => handleSortOptionChange(e)}
+					className={sortOption === 'kategory' ? 'active' : ''}
+				>
+					Mahlzeit
+				</button>
+			</div>
 
 			{sortOption === 'saison' && (
 				<div>
@@ -125,11 +125,6 @@ export const PageCheckboxFilter = () => {
 					<figure key={meal.title}>
 						<figcaption>
 							<p className="title">{meal.title}</p>
-							{meal.ingredientList.map((ingredient) => (
-								<p key={ingredient.name}>
-									{ingredient.amount} {ingredient.name}
-								</p>
-							))}
 						</figcaption>
 					</figure>
 				))}
