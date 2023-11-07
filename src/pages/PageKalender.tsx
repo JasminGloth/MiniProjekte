@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import meals from '../data/meals.json';
 
 export const PageKalender = () => {
 	const [popUp, setPopUp] = useState("closed");
